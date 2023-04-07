@@ -14,3 +14,5 @@ def addTo(k, intList):
     return False
 if __name__ == "__main__":
     print(addTo(17, [10,15,3,1, 2]))
+    print(addTo(2, [2,1,4,39]))
+    print(addTo(56, [23, 48, 9, 57, -1]))
