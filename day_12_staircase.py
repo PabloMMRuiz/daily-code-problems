@@ -45,4 +45,3 @@ if __name__ == "__main__":
     print("Internet solution time: ",time.time()-now)
 
     print(sol_k_ways(5, {1,3,5}))
-    print(solution(5, [1,3,5]))
