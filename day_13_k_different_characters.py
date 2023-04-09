@@ -27,6 +27,6 @@ def solution(s: str, k: int):
 
     return currentSubString
 
+
 if __name__ == "__main__":
     print(solution("abcbapbaaaaaaa", 3))
-    ord
