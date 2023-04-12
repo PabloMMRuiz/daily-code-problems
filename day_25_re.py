@@ -64,3 +64,9 @@ def re_match(re: str, s: str)-> bool:
     return True if s_index == len(s) else False
 
 print(re_match("c.a*", "chaagshtsryts"))
+print(re_match("r.y", "ray"))
+print(re_match("ra.", "rays"))
+print(re_match(".*at", "chat"))
+print(re_match(".*at", "chats"))
+print(re_match(".*", "random-word"))
+print(re_match(".*a", "random-word"))
