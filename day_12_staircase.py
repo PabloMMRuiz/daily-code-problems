@@ -3,9 +3,7 @@ def sol_memory(n):
     a = 1
     b=1
     for i in range(2,n):
-        temp = a
-        a = a+b
-        b = temp
+        a ,b = a+b, a
     return a+b
 
 
