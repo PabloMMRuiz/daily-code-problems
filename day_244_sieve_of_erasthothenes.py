@@ -7,7 +7,6 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 
 
 def sieve_of_eratosthenes(ceiling: int)->list:
-    cicle = 2
     temp = 2
     nums = [True for _ in range(ceiling+1)]
     primes = [0, 1]
