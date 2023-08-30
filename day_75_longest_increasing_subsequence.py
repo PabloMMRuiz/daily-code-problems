@@ -27,3 +27,5 @@ if __name__ == "__main__":
     tester = [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
     lis(tester, len(tester))
     print(maximum)
+
+#TODO: Easy to make this better with memoization!!
